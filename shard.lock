@@ -1,0 +1,14 @@
+version: 2.0
+shards:
+  fswatch:
+    git: https://github.com/bcardiff/crystal-fswatch.git
+    version: 0.1.0+git.commit.4c6294ae921c17ef4962785d2f696604be7c4f2d
+
+  live_reload:
+    path: ../live_reload.cr
+    version: 0.1.0
+
+  markd:
+    git: https://github.com/icyleaf/markd.git
+    version: 0.2.1
+

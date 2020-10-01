@@ -1,0 +1,21 @@
+name: mdserver
+version: 0.1.0
+
+dependencies:
+  live_reload:
+    github: bcardiff/live_reload.cr
+  markd:
+    github: icyleaf/markd
+  fswatch:
+    github: bcardiff/crystal-fswatch
+
+authors:
+  - Brian J. Cardiff <bcardiff@manas.tech>
+
+targets:
+  mdserver:
+    main: src/mdserver.cr
+
+crystal: 0.35.1
+
+license: MIT
